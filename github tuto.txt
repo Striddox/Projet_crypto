@@ -1,0 +1,21 @@
+quand tu ajoutes ou modifie un fichier 
+-> git status
+-> git add . OU git add "le nom du fichier"
+-> git commit -m "nom du commit"
+-> git push -u origin nom de la branche (en général main au début)
+
+
+Pour récupérer les infos quand qqn modifie
+-> git pull
+
+Création de branches
+// Créer une nouvelle branche et basculer vers la branche
+-> git checkout -b "nom de la nouvelle branche sans guillemets"
+// Changer de branche
+-> git branch "nom de la branche"
+// Si t'as commit tous tes changements et ça veut pas basculer
+-> git stash 
+-> git branch nom branche
+-> git stash apply
+
+GitKraken
